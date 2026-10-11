@@ -1,0 +1,17 @@
+node_modules/
+dist/
+release/
+.DS_Store
+__pycache__/
+.venv/
+.idea/
+.claude/
+
+# 拆分模型太大（约 180 MB），用 npm run fetch-model 下载
+static/model/htdemucs.onnx
+
+# 从临时工作区带过来的旧副本：web/ 是整个项目的重复，根目录这两个脚本和 python/ 里的一样，demo/ 是原型生成的音频
+/web/
+/demo/
+/make_demo.py
+/timbre_swap.py

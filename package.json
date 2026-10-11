@@ -1,0 +1,17 @@
+{
+  "name": "shenren-translator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node serve.mjs",
+    "fetch-model": "node scripts/fetch-model.mjs"
+  },
+  "dependencies": {
+    "@spotify/basic-pitch": "^1.0.1",
+    "demucs-web": "^1.0.2",
+    "esbuild": "^0.28.2",
+    "onnxruntime-web": "^1.30.0"
+  }
+}
